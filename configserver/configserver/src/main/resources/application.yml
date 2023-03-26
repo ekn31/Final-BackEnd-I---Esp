@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ekn31/MicroServicios
+          uri: https://github.com/ekn31/Final-BackEnd-I---Esp
           default-label: main
           force-pull: true
           search-paths: Configuration
