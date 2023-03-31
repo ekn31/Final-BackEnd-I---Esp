@@ -8,7 +8,7 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     password: ${MYSQL_PASSWORD}
     url: ${MYSQL_URL}
-    username: ${MYSQL_USERNAME}
+    username: ${MYSQL_USERNAME2}
   jpa:
     hibernate:
     ddl-auto: create-drop
