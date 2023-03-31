@@ -11,8 +11,8 @@ spring:
     username: ${MYSQL_USERNAME}
   jpa:
     hibernate:
-            ddl-auto: create-drop
-        show-sql: false
+    ddl-auto: create-drop
+    show-sql: false
 
 
 message: hello from movie-service
