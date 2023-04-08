@@ -34,4 +34,16 @@ management.metrics.tags.application: ${spring.application.name}
 management.metrics.distribution.percentiles-histogram.http.server.requests: true
 management.metrics.distribution.percentiles-histogram.resilience4j.circuitbreaker.calls: true
 
+resilience4j.circuitbreaker:
+  instances:
+    MovieService:
+      registerHealthIndicator: true
+      slindingWindowsSize: 10
+      permittedNumberOfCallsInHalfOpenState: 3
+      slidingWindowType: TIME_BASED
+      minimumNumberOfCall: 20
+      waitDurationInOpenState: 50s
+      failureRateThreshold: 50
+      eventConsumerBufferSize: 10
+      
 message: hello from catalog-service
