@@ -18,12 +18,12 @@ spring:
           uri: lb://serie-service
           predicates:
             - Path=/series/**
-            - Method= POST, GET
+            - Method= POST
         - id: movies
           uri: lb://movie-service
           predicates:
             - Path=/movies/**
-
+            - Method= POST
 
 info:
   app:
