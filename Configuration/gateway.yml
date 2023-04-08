@@ -14,6 +14,8 @@ spring:
           uri: lb://catalog-service
           predicates:
             - Path=/catalog/**
+            - Path=/movies/**
+            - Path=/series/**
 
 info:
   app:
