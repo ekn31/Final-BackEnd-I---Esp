@@ -14,7 +14,7 @@ spring:
       port: 27017
 
 
-message: hello from serice-service
+message: hello from serie-service
 
 management:
   endpoints:

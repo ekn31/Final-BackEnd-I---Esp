@@ -46,4 +46,8 @@ resilience4j.circuitbreaker:
       failureRateThreshold: 50
       eventConsumerBufferSize: 10
 
+queue:
+  movie:
+    name: MovieQueue
+
 message: hello from catalog-service

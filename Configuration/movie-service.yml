@@ -15,6 +15,10 @@ spring:
     show-sql: false
 
 
+queue:
+  movie:
+    name: MovieQueue
+
 message: hello from movie-service
 
 management:
