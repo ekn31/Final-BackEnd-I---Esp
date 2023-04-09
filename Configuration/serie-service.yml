@@ -12,7 +12,10 @@ spring:
     mongodb:
       database: test
       port: 27017
-
+  jpa:
+    hibernate:
+    ddl-auto: update
+    show-sql: false
 
 queue:
   movie:
