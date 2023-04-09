@@ -14,6 +14,17 @@ spring:
       port: 27017
 
 
+queue:
+  movie:
+    name: MovieQueue
+
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+
 message: hello from serie-service
 
 management:
