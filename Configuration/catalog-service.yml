@@ -55,10 +55,5 @@ queue:
   movie:
     name: MovieQueue
 
-  rabbitmq:
-    username: guest
-    password: guest
-    host: localhost
-    port: 5672
 
 message: hello from catalog-service
