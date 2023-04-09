@@ -1,0 +1,7 @@
+com\dh\movieservice\domain\data\DataLoader.class
+com\dh\movieservice\MovieServiceApplication.class
+com\dh\movieservice\api\controller\MovieController.class
+com\dh\movieservice\api\controller\TestController.class
+com\dh\movieservice\domain\model\Movie.class
+com\dh\movieservice\api\service\MovieService.class
+com\dh\movieservice\domain\repository\MovieRepository.class
